@@ -1,0 +1,29 @@
+#heading{
+    background-color:yellow;
+    padding-left: 13%;
+}
+body{
+    background-color:lightskyblue ;
+}
+#show_sketch{
+    float:right;
+    height:40px;
+    width:150px;
+    font-size:medium;
+}
+#label, #confidence{
+ font-size:x-large;
+}
+canvas{
+    border:1px solid white;
+    margin-top:50px;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow:1px 1px 38px grey}
+    to {box-shadow:1px 1px 38px white }
+}
+
